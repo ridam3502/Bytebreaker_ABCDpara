@@ -8,7 +8,9 @@
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+The ABCD parameters (also known as transmission line parameters) are a set of four constants used to describe the voltage and current relationships at the input and output terminals of a two-port network, such as a transmission line. These parameters are particularly useful in electrical engineering for analyzing and designing communication and power systems.
+
+
 
 <b>Name of Developer | <b>Dr. Rajeev Baghel
 :--|:--|
