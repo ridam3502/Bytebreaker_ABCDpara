@@ -1,1 +1,1 @@
-### Aim of the experiment
+The ABCD parameters of transmission lines are a way to represent the electrical behavior of a two-port network, like a transmission line.
