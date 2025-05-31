@@ -1,17 +1,17 @@
- Step 1: Determine Transmission Line Characteristics
+Step 1: Determine Transmission Line Characteristics
 Identify the transmission line's:
 Characteristic impedance (Z₀)
 Propagation constant (γ = α + jβ)
 Length (l)
 
-<b>Step 2: Calculate ABCD Parameters:
+Step 2: Calculate ABCD Parameters:
 Calculate the ABCD parameters using the following formulas:
 A = cosh(γl)
 B = Z₀ * sinh(γl)
 C = (1/Z₀) * sinh(γl)
 D = cosh(γl)
 
-<b>Step 3: Create the ABCD Matrix:
+Step 3: Create the ABCD Matrix:
 Create the ABCD matrix:
 | V1 |   | A  B |   | V2 |
 |    | = |      | * |    |
