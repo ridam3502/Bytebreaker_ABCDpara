@@ -6,7 +6,7 @@ The matrix form is
 [Vs]   =   [A  B]   [Vr]
 
 
-                    [Is]  =    [C  D]    [Ir]
+                   [Is]  =    [C  D]  [Ir]
 
 AND 
 
