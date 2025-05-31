@@ -3,8 +3,7 @@
 The ABCD parameters, also known as transmission line parameters, describe the relationship between the sending-end and receiving-end voltages and currents of a two-port network such as a transmission line.
 
 The matrix form is 
-[Vs]   =   [A  B]   [Vr]
-
+[Vs]   =   [A  B]     [Vr]
                 [Is]  =  [C D] [Ir]
 
 AND 
