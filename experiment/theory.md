@@ -32,9 +32,11 @@ A , B , C , D :- transmission  line  constants
 *D: Ratio of sending-end current to receiving-end current when receiving-end voltage is zero.
 
 
-3.TYPES OF ABCD TRANSMISSION LINE:-
+ 3.TYPES OF ABCD TRANSMISSION LINE:-
+ 
+ The values of A, B, C, and D depend on the electrical characteristics of the line (resistance, inductance, capacitance, conductance) and the length of the line. Based on the length, transmission lines are classified into short, medium, and long lines, each having different models and corresponding ABCD parameters:
 
-a) Short Transmission Line (Length < 80 km)
+a) Short Transmission Line (Length < 80 km) :- Short lines neglect shunt capacitance and are modeled with only series impedance.
 Assuming lumped parameters:
 
 Series impedance: 
@@ -51,7 +53,7 @@ Series impedance:
 
 𝐶=0
 
-b) Medium Transmission Line (80–250 km)
+b) Medium Transmission Line (80–250 km) :- Medium lines include both series impedance and shunt admittance, typically using a nominal π or T model.
 Using the nominal π model:
 
 Series impedance: 
@@ -65,7 +67,8 @@ Y=jωC
 𝐵=Z
 𝐶=𝑌*(1+𝑌𝑍/4)
 
-c) Long Transmission Line (> 250 km)
+c) Long Transmission Line (> 250 km) :- Long lines consider the distributed nature of line parameters using hyperbolic functions.
+
 Distributed parameters:
 
 Propagation constant: 
@@ -92,11 +95,8 @@ l is the length of the line.
 5. CONCLUSION  :-
 
 The ABCD parameters provide a systematic and efficient way to analyze transmission lines by expressing the sending-end voltage and current in terms of the 
-
 receiving-end values and it also  provide a compact way to model the voltage and current relationships in transmission lines of different lengths. . 
-
 These parameters simplify the study of power flow, voltage regulation, and stability in power systems. Depending on the line length, 
-
 appropriate models (short, medium, or long) are used to derive the ABCD constants.
 
 
