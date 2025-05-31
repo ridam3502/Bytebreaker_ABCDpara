@@ -63,8 +63,10 @@ Shunt admittance:
 
 Y=jωC
 
-𝐴=𝐷=1+𝑌𝑍/2
+𝐴=𝐷=1+(𝑌𝑍/2)
+
 𝐵=Z
+
 𝐶=𝑌*(1+𝑌𝑍/4)
 
 c) Long Transmission Line (> 250 km) :- Long lines consider the distributed nature of line parameters using hyperbolic functions.
