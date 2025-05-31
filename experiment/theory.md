@@ -4,6 +4,7 @@ The ABCD parameters, also known as transmission line parameters, describe the re
 
 The matrix form is 
 [Vs]   =   [A  B]     [Vr]
+
                 [Is]  =  [C D] [Ir]
 
 AND 
