@@ -5,8 +5,7 @@ The ABCD parameters, also known as transmission line parameters, describe the re
 The matrix form is 
 [Vs]   =   [A  B]   [Vr]
 
-
-                 [Is]  =  [C D] [Ir]
+                [Is]  =  [C D] [Ir]
 
 AND 
 
@@ -34,7 +33,7 @@ A , B , C , D :- transmission  line  constants
 *D: Ratio of sending-end current to receiving-end current when receiving-end voltage is zero.
 
 
- 3.TYPES OF ABCD TRANSMISSION LINE:-
+   3.TYPES OF ABCD TRANSMISSION LINE:-
  
  The values of A, B, C, and D depend on the electrical characteristics of the line (resistance, inductance, capacitance, conductance) and the length of the line. Based on the length, transmission lines are classified into short, medium, and long lines, each having different models and corresponding ABCD parameters:
 
